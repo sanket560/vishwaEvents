@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBU-fxdag0DRbvbGlQO4aHepRd04YYO1uc",
-  authDomain: "vishwaevent-1e576.firebaseapp.com",
-  projectId: "vishwaevent-1e576",
-  storageBucket: "vishwaevent-1e576.appspot.com",
-  messagingSenderId: "680938769524",
-  appId: "1:680938769524:web:2f63a475ae8ec6ac835521"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
 // Initialize Firebase
