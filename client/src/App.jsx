@@ -9,9 +9,9 @@ import EventDetails from "./pages/Events/EventDetails";
 import HostEvent from "./pages/Events/HostEvent";
 import Logout from "./pages/Logout";
 import MyEvents from "./pages/Events/MyEvents";
-import UpdateEvent from "./pages/Events/updateEvent";
 import MyTicket from "./pages/Events/MyTicket";
 import Application from "./pages/Events/Application";
+import UpdateEvent from './pages/Events/UpdateEvent';
 
 const App = () => {
   return (
