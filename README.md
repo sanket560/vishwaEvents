@@ -1,4 +1,4 @@
-# EchoBazar E-Commerce Web Application
+# VishwaEvents - Event Management System
 
 Welcome to VishwaEvents, an event management system built using the MERN stack (MongoDB, Express.js, React.js, Node.js). VishwaEvents allows users to host events, update and delete events, manage event registrations, issue tickets, and more.
 
