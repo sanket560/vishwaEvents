@@ -35,44 +35,37 @@ Welcome to EchoBazar, an e-commerce platform built using the MERN stack (MongoDB
    cd echobazar
 
 2. **Install dependencies**
-
-Backend
-Navigate to the backend directory and install dependencies:
-
-```bash
-cd server
-npm install
-```
-
-Frontend
-Navigate to the frontend directory and install dependencies:
-
-```bash
-cd client
-npm install
-```
+   server
+   Navigate to the server directory and install dependencies:
+   ```bash
+   cd server
+   npm install
+   ```
+  client
+  Navigate to the client directory and install dependencies:
+  ```bash
+  cd client
+  npm install
+  ```
 3. **Set up environment variables**
-Create .env file for server and for client .env.local.
+   Create .env file for server and for client .env.local.
 
 4. **Run the application**
-Start server
-From the server directory, run:
-
-```bash
-npm run dev
-```
-
-Start client server
-From the client directory, run:
-
-```bash
-npm run dev
-```
-
+   Start server
+   From the server directory, run:
+   ```bash
+   npm run dev
+   ```
+   Start client
+   From the client directory, run:
+   ```bash
+   npm run dev
+   ```
+   
 5. **Access the application**
-Open your browser and visit http://localhost:3000 to view the EchoBazar application.
+   Open your browser and visit http://localhost:3000 to view the EchoBazar application.
 
-6. **Screenshot**
-![image](https://github.com/sanket560/vishwaEvents/assets/68066761/110004d3-05c3-4077-9591-a4d95aa6e7c8)
-![image](https://github.com/sanket560/vishwaEvents/assets/68066761/300cad81-3fc2-4076-86c6-21d3df54ba9b)
-![vishwa-events vercel app_](https://github.com/sanket560/vishwaEvents/assets/68066761/8eaf4dae-f898-41ca-ab2a-727043cd3ff4)
+7. **Screenshot**
+   ![image](https://github.com/sanket560/vishwaEvents/assets/68066761/110004d3-05c3-4077-9591-a4d95aa6e7c8)
+   ![image](https://github.com/sanket560/vishwaEvents/assets/68066761/300cad81-3fc2-4076-86c6-21d3df54ba9b)
+   ![vishwa-events vercel app_](https://github.com/sanket560/vishwaEvents/assets/68066761/8eaf4dae-f898-41ca-ab2a-727043cd3ff4)
