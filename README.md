@@ -1,22 +1,26 @@
 # EchoBazar E-Commerce Web Application
 
-Welcome to EchoBazar, an e-commerce platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js). This application allows users to browse products, add them to cart, make purchases using Stripe for payments, and manage products via CRUD operations.
+Welcome to VishwaEvents, an event management system built using the MERN stack (MongoDB, Express.js, React.js, Node.js). VishwaEvents allows users to host events, update and delete events, manage event registrations, issue tickets, and more.
 
 ## Features
 
 - **User Authentication**: Users can sign up, sign in, and sign out securely.
-- **Product Management**: Admin users can add, edit, and delete products.
-- **Shopping Cart**: Users can add products to their cart and proceed to checkout.
-- **Payment Integration**: Stripe is integrated for secure payment processing.
-- **Responsive Design**: Ensures a seamless experience across devices.
+- **Event Hosting**: Host and manage events through an intuitive dashboard.
+- **Event Management**: Update, delete, and view details of hosted events.
+- **User Registration**: Users can register for events and manage their registrations.
+- **Ticketing System**: Issue digital tickets to registered users Email.
+- **Admin Panel**: Administrators can manage users, events, and registrations.
+- **Responsive Design**: Provides a seamless experience across various devices.
 
 ## Technologies Used
 
 - **Frontend**: React.js, React Router, Axios
 - **Backend**: Node.js, Express.js, MongoDB
-- **Payment**: Stripe API
+- **Authentication**: JWT (JSON Web Tokens) for secure authentication
 - **Deployment**: Vercel (frontend), Render (backend)
-- **Styling**: CSS (or your chosen styling framework)
+- **Styling**: Tailwindcss
+- **Cloudinary**: uploading images to the cloud
+
 
 ## Getting Started
 
@@ -24,40 +28,39 @@ Welcome to EchoBazar, an e-commerce platform built using the MERN stack (MongoDB
 
 - Node.js installed on your local machine
 - MongoDB Atlas account for database (or local MongoDB setup)
-- Stripe account for payment integration
+- Cloudinary account for uploading images to the cloud
 
 ### Installation
 
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/echobazar.git
+   git clone https://github.com/sanket560/vishwaEvents.git
    cd echobazar
+   ```
 
-2. **Install dependencies**
-   server
+2. **Install dependencies**<br>
    Navigate to the server directory and install dependencies:
    ```bash
    cd server
    npm install
    ```
-  client
-  Navigate to the client directory and install dependencies:
-  ```bash
-  cd client
-  npm install
-  ```
-3. **Set up environment variables**
-   Create .env file for server and for client .env.local.
+   Navigate to the client directory and install dependencies:
+   ```bash
+   cd client
+   npm install
+   ```
+3. **Set up environment variables**<br>
+   Create a `.env` file for the server and for the client `.env.local`.
 
-4. **Run the application**
+4. **Run the application**<br>
    Start server
-   From the server directory, run:
+   from the server directory, run:
    ```bash
    npm run dev
    ```
    Start client
-   From the client directory, run:
+   from the client directory, run:
    ```bash
    npm run dev
    ```
@@ -69,3 +72,4 @@ Welcome to EchoBazar, an e-commerce platform built using the MERN stack (MongoDB
    ![image](https://github.com/sanket560/vishwaEvents/assets/68066761/110004d3-05c3-4077-9591-a4d95aa6e7c8)
    ![image](https://github.com/sanket560/vishwaEvents/assets/68066761/300cad81-3fc2-4076-86c6-21d3df54ba9b)
    ![vishwa-events vercel app_](https://github.com/sanket560/vishwaEvents/assets/68066761/8eaf4dae-f898-41ca-ab2a-727043cd3ff4)
+
